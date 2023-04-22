@@ -1,0 +1,10 @@
+{
+    "pageHeaders": {
+        "homePage": "Welcome to the-internet",
+        "addRmoveElementPage": "Add/Remove Elements",
+        "checkBoxes": "Checkboxes",
+        "contextMenu": "Context Menu",
+        "dropDownList": "Dropdown List",
+        "inputs": "Inputs"
+    }
+}

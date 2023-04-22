@@ -1,0 +1,16 @@
+{
+  "name": "harver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test ./tests/**.test.ts --workers=5"
+  },
+  "keywords": [],
+  "author": "chanaka u.",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.32.3",
+    "dotenv": "^16.0.3"
+  }
+}

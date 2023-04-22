@@ -1,0 +1,9 @@
+{
+    "pages": {
+        "add_remove_elements": "Add/Remove Elements",
+        "inputs": "Inputs",
+        "drop_down_list": "Dropdown List",
+        "check_boxes": "Checkboxes",
+        "context_menu": "Context Menu"
+    }
+}
