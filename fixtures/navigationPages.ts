@@ -14,23 +14,23 @@ const test = baseTest.extend<{
     checkBoxesPage: CheckBoxesPage;
     contextMenuPage: ContextMenuPage;
 }>({
-    homePage: async ({ page }) => {
-        await (new HomePage(page));
+    homePage: async ({ page }, use) => {
+        await use(new HomePage(page));
     },
-    addRemoveElementsPage: async ({ page }) => {
-        await (new AddRemoveElementsPage(page));
+    addRemoveElementsPage: async ({ page }, use) => {
+        await use(new AddRemoveElementsPage(page));
     },
-    inputPage: async ({ page }, ) => {
-        await (new InputPage(page));
+    inputPage: async ({ page }, use) => {
+        await use(new InputPage(page));
     },
-    dropDownListPage: async ({ page }, ) => {
-        await (new DropDownListPage(page));
+    dropDownListPage: async ({ page }, use) => {
+        await use(new DropDownListPage(page));
     },
-    checkBoxesPage: async ({ page }, ) => {
-        await (new CheckBoxesPage(page));
+    checkBoxesPage: async ({ page }, use) => {
+        await use(new CheckBoxesPage(page));
     },
-    contextMenuPage: async ({ page }, ) => {
-        await (new ContextMenuPage(page));
+    contextMenuPage: async ({ page }, use) => {
+        await use(new ContextMenuPage(page));
     }
 });
 

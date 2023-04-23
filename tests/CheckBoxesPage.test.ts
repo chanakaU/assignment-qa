@@ -6,7 +6,7 @@ test.beforeEach(async ({ homePage }) => {
     await homePage.navigateToGivenPage(pages.check_boxes);
 });
 
-test('validate check box state after selected', async ({ checkBoxesPage }) => {
+test('validate check box state after selection and deselection', async ({ checkBoxesPage }) => {
     await checkBoxesPage.selectCheckBox('checkbox 1, checkbox 2');
     expect(await checkBoxesPage.getPageTitle()).toBe(pages.check_boxes);
     expect(await checkBoxesPage.getStateOfCheckBox('checkbox 1')).toBeTruthy();

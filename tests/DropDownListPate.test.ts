@@ -12,7 +12,7 @@ test('validate select an option form the dropdown', async ({ dropDownListPage })
     expect(await dropDownListPage.validateSelectedOption()).toBe('Option 2');
 });
 
-test('validate update selecte option form the dropdown', async ({ dropDownListPage }) => {
+test('validate update selected option form the dropdown', async ({ dropDownListPage }) => {
     await dropDownListPage.selectAnOption('Option 2');
     expect(await dropDownListPage.validateSelectedOption()).toBe('Option 2');
     await dropDownListPage.selectAnOption('Option 1');
