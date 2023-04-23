@@ -10,6 +10,11 @@ This automation Project is implemented using following tools and technologies
 
 ## Automation Scope
 1. Web Automation : https://the-internet.herokuapp.com/
+   * Add Remove Elements
+   * Check Boxes
+   * Context Menu
+   * Drop Down List
+   * Innputs
 
 
 ## Test Execution Instructions (Running tests in locally)
@@ -23,6 +28,8 @@ Follow the steps below to execute tests
 5. To run the tests enter in vscode terminal: `npm run test`
 
    Wait for the  ✨Magic ✨
+
+6. To see the execution results: `npx playwright show-report`
 
 Test will run on Chrome, firefox and Safari browsers, on parallel(UI Tests) by default. Update playwright config if you need to run on other browsers.
 
